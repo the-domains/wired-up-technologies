@@ -1,40 +1,40 @@
-name: Wired Up Technologies
 favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.41786
+name: Wired Up Technologies
+opengraph:
+  image: null
+  type: null
+  appId: null
 collections:
   - index:
       path: /
       number: 15
       paginate: true
       navigable: true
+    permalink:
+      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
-    permalink:
-      path: '/:title/'
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
 color:
-  brandColors:
-    - '#fefefe'
-    - '#797979'
-    - '#fe9305'
-    - '#aaaaaa'
-    - '#feb374'
+  saturation: 0.5
   brandStrength: 0.75
   lightness: 0.8125
-  saturation: 0.5
+  brandColors:
+    - '#FFFFFF'
+    - '#DDDDDD'
+    - '#797979'
+    - '#FF9300'
+    - '#B4B4B4'
   rhythmicContrast: 0.5
-purpose: []
+typography_spectrum: 0.41786
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
